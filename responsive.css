@@ -1,0 +1,42 @@
+@media screen and (max-width: 360px) {
+  header img {
+    width: 2em;
+  }
+  .info, .footer, .links, .img-and-text {
+    font-size: 70%;
+  }
+  .logo {
+    padding-top: 0.5em;
+  }
+  main {
+  	margin-top: -1.5em;
+  }
+  .header__inner{
+    margin-bottom: -1em;
+  }
+}
+
+@media screen and (min-width: 361px) and (max-width: 550px) {
+  header img {
+    width: 2.5em;
+  }
+  .info, .footer, .links, .img-and-text {
+    font-size: 80%;
+  }
+  .logo {
+    padding-top: 1em;
+  }
+  main {
+  	margin-top: -1,5em;
+  }
+  .header__inner{
+    margin-bottom: -1em;
+  }
+}
+@media screen and (min-width: 900px) {
+  main, .header__inner, footer, .line {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
