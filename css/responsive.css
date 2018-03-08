@@ -1,0 +1,70 @@
+@media screen and (max-width: 300px) {
+  .info, header {
+    font-size: 70%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  header img {
+    width: 2em;
+  }
+  .info, .footer-text, .img-and-text {
+    font-size: 60%;
+  }
+  .logo {
+    padding-top: 0.5em;
+  }
+  main {
+  	margin-top: -1.5em;
+  }
+  .header__inner{
+    margin-bottom: -1em;
+  }
+  .img-and-text {
+    width: 60%;
+    margin: auto;
+    padding-bottom: 1.5em;
+  	text-align: center;
+  }
+  .featured {
+  font: bold 0.8em/1.2 'Raleway', sans-serif;
+  }
+}
+
+@media screen and (min-width: 401px) and (max-width: 650px) {
+  header img {
+    width: 2.5em;
+  }
+  .info, .footer-text, .links, .img-and-text {
+    font-size: 80%;
+  }
+  .logo {
+    padding-top: 1em;
+  }
+  main {
+  	margin-top: -1.5em;
+  }
+  .header__inner{
+    margin-bottom: -1em;
+  }
+  .img-and-text {
+    width: 40%;
+    margin: auto;
+    padding-bottom: 1.5em;
+  	text-align: center;
+  }
+  .featured {
+    font: bold 1em/1.2 'Raleway', sans-serif;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  main, .header__inner, footer, .line {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .featured {
+    font: bold 2em/1.2 'Raleway', sans-serif;
+  }
+}
