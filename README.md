@@ -8,6 +8,7 @@
 
 **CSS help**
 
+- Udacity
 - https://css-tricks.com/
 - https://www.w3schools.com/
 - https://developer.mozilla.org/
