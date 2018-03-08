@@ -1,5 +1,5 @@
 *{
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 /** HEADER **/
@@ -27,7 +27,7 @@ header img {
 }
 
 .title {
-  font: bold 1em/1.2 'Raleway', sans-serif;
+  font: bold 1em/1.2 "Raleway", sans-serif;
   color: #7d97ad;
   margin-top: -1.25em;
   text-align: right;
@@ -92,7 +92,7 @@ main {
 .featured {
   text-align: center;
   padding: 1em;
-  font: bold 1.5em/1.2 'Raleway', sans-serif;
+  font: bold 1.5em/1.2 "Raleway", sans-serif;
   color: #7d97ad;
   text-transform: uppercase;
 }
